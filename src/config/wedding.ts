@@ -37,7 +37,7 @@ export const wedding = {
       name: "Walima",
       date: "27 December 2026",
       time: "1:00 PM",
-      venue: "AL MAKKA BANGQUET HALL",
+      venue: "AL MAKKA BANQUET HALL",
       address: "Khayban E Sir Syed, IJP Road, Rawalpindi",
     },
   ] as EventItem[],
