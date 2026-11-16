@@ -24,8 +24,8 @@ export const wedding = {
   displayDate: "Sunday, 27 December 2026",
   displayTime: "1:00 PM onwards",
   venue: {
-    name: "AL MAKKA BANGQUET HALL",
-    address: "Al Makkah Banquet Halls Khayban E Sir Syed, IJP Road, Rawalpindi",
+    name: "AL MAKKA BANQUET HALL",
+    address: "Khayban E Sir Syed, IJP Road, Rawalpindi",
     mapUrl: "https://maps.app.goo.gl/AN7mfAuSxszK22yx9",
   },
   inviteLine: "Together with their families",
