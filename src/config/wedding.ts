@@ -25,7 +25,7 @@ export const wedding = {
   displayTime: "1:00 PM onwards",
   venue: {
     name: "AL MAKKA BANGQUET HALL",
-    address: "Khayban E Sir Syed, IJP Road, Rawalpindi, Pakistan",
+    address: "Al Makkah Banquet Halls Khayban E Sir Syed, IJP Road, Rawalpindi",
     mapUrl: "https://maps.app.goo.gl/AN7mfAuSxszK22yx9",
   },
   inviteLine: "Together with their families",
@@ -42,13 +42,11 @@ export const wedding = {
     },
   ] as EventItem[],
   guests: [
-    "Muhammad Yasin",
-    "Muhammad Adeel",
-    "Muhammad Mustafa",
-    "Irfan Ul Haq",
-    "Abdul Qadeer",
-    "Zain",
-    "Subhan",
+    "Saqib Riaz",
+    "Ali Raza Riaz",
+    "Sohail khaliq",
+    "Azhar Rafique ",
+    "Faizan Hayyat",
   ],
   music: {
     src: "",
