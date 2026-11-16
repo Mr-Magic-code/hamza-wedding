@@ -9,24 +9,24 @@ export type EventItem = {
 export const wedding = {
   couple: {
     bride: {
-      firstName: "ABC",
-      fullName: "ABC",
-      parents: "Daughter of Mr. & Mrs. Riyaz",
+      firstName: "D/O Safdar Razzaq",
+      fullName: "D/O Safdar Razzaq",
+      parents: "Daughter of Mr. & Mrs. Safdar Razzaq",
     },
     groom: {
-      firstName: "Hamza",
-      fullName: "Muhammad Hamza Amin",
-      parents: "Son of Mr. & Mrs. Amin",
+      firstName: "Aqib Riaz",
+      fullName: "Aqib Riaz",
+      parents: "Son of Mr. & Mrs. Riaz",
     },
-    hashtag: "#Aminfamily",
+    hashtag: "#RiazFamily",
   },
-  dateISO: "2027-03-21T19:00:00+05:00",
-  displayDate: "Sunday, 21 March 2027",
-  displayTime: "7:00 PM onwards",
+  dateISO: "2026-12-27T13:00:00+05:00",
+  displayDate: "Sunday, 27 December 2026",
+  displayTime: "1:00 PM onwards",
   venue: {
-    name: "POF Welfare Marriage Hall",
-    address: "Wah Cantt, Pakistan",
-    mapUrl: "https://share.google/iBEIaSdQj3XoN9f3J",
+    name: "AL MAKKA BANGQUET HALL",
+    address: "Khayban E Sir Syed, IJP Road, Rawalpindi, Pakistan",
+    mapUrl: "https://maps.app.goo.gl/AN7mfAuSxszK22yx9",
   },
   inviteLine: "Together with their families",
   quote:
@@ -35,10 +35,10 @@ export const wedding = {
   events: [
     {
       name: "Walima",
-      date: "21 March 2027",
-      time: "7:00 PM",
-      venue: "POF Welfare Marriage Hall",
-      address: "Wah Cantt, Pakistan",
+      date: "27 December 2026",
+      time: "1:00 PM",
+      venue: "AL MAKKA BANGQUET HALL",
+      address: "Khayban E Sir Syed, IJP Road, Rawalpindi",
     },
   ] as EventItem[],
   guests: [

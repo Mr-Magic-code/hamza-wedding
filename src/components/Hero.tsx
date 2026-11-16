@@ -45,7 +45,7 @@ export default function Hero() {
       <CornerFlourish className="pointer-events-none absolute bottom-3 right-3 h-20 w-20 rotate-180 opacity-50 sm:bottom-8 sm:right-8 sm:h-28 sm:w-28" />
 
       <div className="relative z-10 flex w-full max-w-3xl flex-col items-center text-center">
-        <Monogram className="h-20 w-20 sm:h-24 sm:w-24" initials={`${bride.firstName[0]}&${groom.firstName[0]}`} />
+        <Monogram className="h-20 w-20 sm:h-24 sm:w-24" initials={`${groom.firstName[0]}&${bride.firstName[0]}`} />
 
         <p className="mt-7 text-[0.66rem] font-medium uppercase tracking-[0.42em] text-accent sm:text-xs">
           {wedding.inviteLine}
@@ -53,13 +53,13 @@ export default function Hero() {
 
         <h1 className="mt-6 flex flex-col items-center leading-none">
           <span className="font-script text-[clamp(3.4rem,13vw,7.5rem)] leading-[0.95] gold-text">
-            {bride.firstName}
+            {groom.firstName}
           </span>
           <span className="my-1 font-display text-2xl font-light italic text-muted sm:my-2 sm:text-3xl">
             and
           </span>
           <span className="font-script text-[clamp(3.4rem,13vw,7.5rem)] leading-[0.95] gold-text">
-            {groom.firstName}
+            {bride.firstName}
           </span>
         </h1>
 
